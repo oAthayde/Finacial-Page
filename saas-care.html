@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS Care</title>
+
+    <link rel="stylesheet" href="var.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="top">
+        </div>
+
+        <div class="sidebar-and-tabela_fin">
+            <div class="sidebar">
+            </div>
+
+            <div class="tabela_fin">
+                <div class="cabecalho">
+                    <div class="titulo">
+                        <h4>Movimentação finaceira</h4>
+                    </div>
+
+                    <div class="conteinerButton">
+                        <div class="printer">
+                            <button>
+                                <img src="fotos-care/printer.png" alt="">
+                                <span>Imprimir Relatório</span>
+                            </button>
+                        </div>
+
+                        <div class="lancamento">
+                            <button>
+                                <img src="fotos-care/plus.png" alt="">
+                                <span>Novo Lançamento</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteinerForm">
+                    <div class="firstlineForm">
+                        <div class="form-1">
+                            <p>Data</p>
+                            <input type="text" maxlength="10" autocorrect="off" autocapitalize="off" spellcheck="false"
+                                placeholder="Vencimento">
+                        </div>
+
+                        <div class="form-2">
+                            <p>Início</p>
+                            <input type="text" maxlength="10" autocorrect="off" autocapitalize="off" spellcheck="false"
+                                placeholder="Data de Início">
+                        </div>
+
+                        <div class="form-3">
+                            <p>Término </p>
+                            <input type="text" maxlength="10" autocorrect="off" autocapitalize="off" spellcheck="false"
+                                placeholder="Data de Término">
+                        </div>
+                    </div>
+
+                    <div class="secondlineForm">
+                        <div class="divSelect_colum">
+                            <label for="Tipo">Tipo</label>
+                            <select name="Tipo" id="Tipo">
+                                <option value="Todos">Todos</option>
+                                <option value="Nenhum">Nenhum</option>
+                            </select>
+                        </div>
+
+                        <div class="divSelect_colum">
+                            <label for="Status">Status</label>
+                            <select name="Status" id="Status">
+                                <option value="Todos">Todos</option>
+                                <option value="Nenhum">Nenhum</option>
+                            </select>
+                        </div>
+
+                        <div class="divSelect_colum">
+                            <label for="pagamento">Forma de pagamento</label>
+                            <select name="pagamento" id="pagamento">
+                                <option value="Todos">Todos</option>
+                                <option value="Nenhum">Nenhum</option>
+                            </select>
+                        </div>
+
+                        <div class="divSelect_colum">
+                            <label for="Conta">Conta bancária / caixa</label>
+                            <select name="Conta" id="Conta">
+                                <option value="Todos">Todos</option>
+                                <option value="Nenhum">Nenhum</option>
+                            </select>
+                        </div>
+
+                        <div class="divSelect_favorecido">
+                            <p>Favorecido / pagador</p>
+                            <input type="text" maxlength="50" autocorrect="off" autocapitalize="off" spellcheck="false"
+                                placeholder="Escreva aqui">
+                        </div>
+
+                        <div class="search">
+                            <button>
+                                <img src="fotos-care/search.png" alt="Lupa de busca">
+                                <span>Pesquisar</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="conteinerTable">
+                    <table class="table">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Status</th>
+                            <th>Documento</th>
+                            <th>Emissão</th>
+                            <th>Vencimento</th>
+                            <th>Pagador/Favorecido</th>
+                            <th>Cobrança</th>
+                            <th>Valor</th>
+                            <th> </th>
+                        </tr>
+
+                        <tr>
+                            <td>UP</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>sdfdfsdgrged</td>
+                            <td>16/01/2024</td>
+                            <td>18/01/2024</td>
+                            <td>Amil</td>
+                            <td>Pix</td>
+                            <td>R$ 2.300,00</td>
+                            <td> <button>
+                                    <img src="fotos-care/printer.png" alt="">
+                                </button>
+                                <button>
+                                    <img src="fotos-care/refresh.png" alt="">
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>weweerafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Bradesco</td>
+                            <td>Boleto</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>UP</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>weweerafhys</td>
+                            <td>25/02/2024</td>
+                            <td>26/02/2024</td>
+                            <td>Bradesco</td>
+                            <td>PIX</td>
+                            <td>R$ 1.789,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>wfgfrafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Bradesco</td>
+                            <td>Dinheiro</td>
+                            <td>R$ 990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>UP</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>asderafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Bradesco</td>
+                            <td>Boleto</td>
+                            <td>R$ 10.000,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>btrewafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Stenci</td>
+                            <td>PIX</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>btrewafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Stenci</td>
+                            <td>PIX</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>btrewafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Stenci</td>
+                            <td>PIX</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>btrewafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Stenci</td>
+                            <td>PIX</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>btrewafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Stenci</td>
+                            <td>PIX</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>DOWN</td>
+                            <td><img src="fotos-care/check.png" alt=""></td>
+                            <td>btrewafhys</td>
+                            <td>22/02/2024</td>
+                            <td>24/02/2024</td>
+                            <td>Stenci</td>
+                            <td>PIX</td>
+                            <td>R$ 1.990,00</td>
+                            <td> <button>
+                                <img src="fotos-care/printer.png" alt="">
+                            </button>
+                            <button>
+                                <img src="fotos-care/refresh.png" alt="">
+                            </button>
+                        </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
